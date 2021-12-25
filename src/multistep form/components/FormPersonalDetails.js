@@ -39,7 +39,7 @@ export class FormPersonalDetails extends Component {
                   />
                   <br/>
                   <button type='submit' onClick={this.continue}>Submit</button>
-                  <button type='submit' onClick={this.back}>Go Back</button>
+                  <button type='submit' onClick={this.back} className='back'>Go Back</button>
               </div>
             </>
         )

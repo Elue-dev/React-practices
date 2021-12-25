@@ -34,10 +34,21 @@ export class FormUserDetails extends Component {
                   />
                   <br/>
                   <button type='submit' onClick={this.continue}>Submit</button>
+
+
+                  <h4><a href='https://github.com/Elue-dev/React-practices/tree/main/src/multistep%20form/components' style={styles.dark}>Git Hub Link &rarr;</a></h4>
               </div>
             </>
         )
     }
+}
+
+const styles = {
+  dark: {
+      color: '#333',
+      textDecoration: 'underline',
+      paddingTop: '3rem'
+  }
 }
 
 export default FormUserDetails
