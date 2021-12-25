@@ -4,7 +4,7 @@ import '../Nav/Nav.css'
 function Nav() {
     return (
         <nav>
-            <div><h2>PRACTICE</h2></div>
+            <div className='logo'>PRACTICE</div>
             <ul>
                 <li>
                     <Link to='/'>Counter</Link>

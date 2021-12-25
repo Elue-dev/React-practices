@@ -10,10 +10,35 @@ nav{
 
 nav ul li{
     display: inline-block;
-    margin: 0 2rem;
+    margin-right: 2rem;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 1.4rem;
 }
 
 a{
     color: #fff;
     text-decoration: none;
+}
+
+@media (max-width: 800px){
+    nav{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 500){
+    nav{
+        flex-direction: row;
+    }
+
+    nav ul{
+        display: grid;
+    }
+
+    nav .logo{
+        display: none;
+    }
 }
