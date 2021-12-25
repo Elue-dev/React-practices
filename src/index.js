@@ -6,13 +6,15 @@ import allReducers from './reducers'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import FormApp from './FormApp';
+import HookFormApp from './HookFormApp';
 
 const myStore = createStore(allReducers)
 
 ReactDOM.render(
     <Provider store={myStore}>
       {/* <CounterApp /> */}
-      <FormApp />
+      {/* <FormApp /> */}
+      <HookFormApp />
     </Provider>,
   document.getElementById('root')
 );

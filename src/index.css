@@ -9,7 +9,8 @@ code {
     monospace;
 }
 
-button{
+button,
+.submit{
   cursor: pointer;
   padding: .6rem 1.3rem;
   background: #333;
@@ -21,7 +22,8 @@ button{
   margin-right: .5rem;
 }
 
-button:hover{
+button,
+.submit:hover{
   background: rgb(90, 88, 88);
 }
 
@@ -72,3 +74,4 @@ a{
 .details{
   padding-bottom: 1rem;
 }
+
